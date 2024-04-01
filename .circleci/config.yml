@@ -58,17 +58,17 @@ commands:
 jobs:
   v8:
     docker:
-      - image: node:8
+      - image: node:8.17.0
     steps:
       - run-node
   v10:
     docker:
-      - image: node:10
+      - image: node:10.24.1
     steps:
       - run-node
   v12:
     docker:
-      - image: node:12
+      - image: node:12.22.12
     steps:
       - run-node
 
